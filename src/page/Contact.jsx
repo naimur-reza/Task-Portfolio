@@ -1,4 +1,4 @@
-import { BsFacebook } from "react-icons/bs";
+import { BiLogoFacebook } from "react-icons/bi";
 import { BsYoutube } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
@@ -18,11 +18,23 @@ const Contact = () => {
         <p>
           Phone: <span className="underline text-white">+99938 382 323</span>
         </p>
-        <div className="flex items-center gap-5 w-full justify-center">
-          <BsFacebook size={20} />
-          <AiOutlineTwitter size={20} />
-          <BsYoutube size={20} />
-          <FaInstagram size={20} />
+        <div className="flex items-center gap-5 z-10 justify-center pt-5">
+          <BiLogoFacebook
+            className="hover:text-white transition-all cursor-pointer"
+            size={23}
+          />
+          <AiOutlineTwitter
+            className="hover:text-white transition-all cursor-pointer"
+            size={23}
+          />
+          <BsYoutube
+            className="hover:text-white transition-all cursor-pointer"
+            size={23}
+          />
+          <FaInstagram
+            className="hover:text-white transition-all cursor-pointer"
+            size={23}
+          />
         </div>
       </div>
     </div>

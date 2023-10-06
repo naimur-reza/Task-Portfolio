@@ -1,5 +1,5 @@
 import React from "react";
-import { BsFacebook } from "react-icons/bs";
+import { BiLogoFacebook } from "react-icons/bi";
 import { BsYoutube } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
@@ -15,7 +15,7 @@ const Footer = () => {
           © {new Date().getFullYear()} Dustin Farrell Visual Concepts
         </p>
         <div className="flex items-center gap-4 ">
-          <BsFacebook
+          <BiLogoFacebook
             className="hover:text-white transition-all cursor-pointer"
             size={20}
           />
