@@ -12,7 +12,9 @@ const SideNav = () => {
             key={i}
             to={item.path}
             className={({ isActive }) =>
-              isActive ? "active-link block" : "block inactive text-gray-600"
+              isActive
+                ? "active-link block text-white"
+                : "block inactive text-white/40"
             }>
             {item.name.toUpperCase()}
           </NavLink>
