@@ -22,7 +22,7 @@ const Home = () => {
     // Calculate rotation degrees for each lens (adjust these values as needed)
     const largeRotation = angle * 0.1; // Adjust the factor for the large lens
     const mediumRotation = angle * 0.8; // Adjust the factor for the medium lens
-    const smallRotation = angle * 0.7; // Adjust the factor for the small lens
+    const smallRotation = angle * -0.7; // Adjust the factor for the small lens
 
     setRotations({
       large: largeRotation,
@@ -33,7 +33,7 @@ const Home = () => {
 
   return (
     <div
-      className="w-[420px] h-[420px] relative lense group transition-transform transform"
+      className="w-[480px] h-[480px] relative lense group transition-transform transform"
       onMouseMove={handleMouseMove}>
       <img
         className="w-full h-full lense-large"

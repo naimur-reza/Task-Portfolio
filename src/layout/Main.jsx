@@ -7,7 +7,7 @@ import videoBackground from "../assets/background.mp4";
 import "./Main.css";
 const Main = () => {
   return (
-    <div className="flex flex-col min-h-screen px-14 py-12 transition-all">
+    <div className="flex flex-col min-h-screen px-14 py-12 transition-all overflow-hidden">
       <video
         src={videoBackground}
         autoPlay
