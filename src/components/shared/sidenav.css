@@ -1,0 +1,20 @@
+.active-link {
+  transition: all 0.4s ease;
+  letter-spacing: 5px;
+}
+
+.active-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -4px; /* Adjust the left position to control the line's width */
+  width: 4px; /* Adjust the line's width as needed */
+  height: 100%;
+  background-color: black; /* Adjust the line's color as needed */
+  transition: all 0.3s;
+}
+
+.inactive {
+  letter-spacing: 0;
+  transition: all 0.3s;
+}
