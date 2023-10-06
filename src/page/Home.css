@@ -1,0 +1,34 @@
+/* Home.css */
+.lense {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Rotate the lenses when the main div is hovered */
+.lense-large:hover {
+  transform: rotate(12deg);
+}
+
+.lense-medium:hover {
+  transform: rotate(12deg);
+}
+
+.lense-small:hover {
+  transform: rotate(12deg);
+}
+
+/* Smooth transition for lens rotation */
+.lense-large,
+.lense-medium,
+.lense-small {
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo {
+  filter: blur(3px);
+  transition: opacity 0.3s, filter 0.3s;
+}
+
+.logo:hover {
+  filter: blur(0);
+  transition: opacity 0.3s, filter 0.3s;
+}
