@@ -9,7 +9,7 @@ const Main = () => {
       <div className="flex-grow flex justify-between items-start">
         <SideNav />
         <img src={logo} className="w-20" alt="" />
-        <div className="flex-grow flex justify-center items-center  absolute inset-0 -z-10 bg-black">
+        <div className="flex-grow flex  justify-center items-center  absolute inset-0 -z-10 bg-gray-900">
           <Outlet />
         </div>
       </div>
