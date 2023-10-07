@@ -19,7 +19,7 @@ const Main = () => {
         <div className="z-10">
           <SideNav />
         </div>
-        <img src={logo} className="w-20 z-10" alt="" />
+        <img src={logo} className="w-16 z-10" alt="" />
         <div className="flex-grow flex  justify-center items-center  absolute inset-0  fade-bg">
           <Outlet />
         </div>
